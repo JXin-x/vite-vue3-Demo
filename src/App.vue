@@ -5,12 +5,12 @@ defineProps<{ msg: string }>()
 </script>
 
 <template>
-  <h1>App2</h1>
-  <router-view />
+    <h1>App3</h1>
+    <router-view />
 </template>
 
 <style scoped>
 .read-the-docs {
-  color: #888;
+    color: #888;
 }
 </style>

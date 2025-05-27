@@ -1,9 +1,0 @@
-@import "./afs.css";
-
-:root{
-    --main-bg-color: red
-}
-
-.root{
-    color:var(--main-bg-color)
-}
