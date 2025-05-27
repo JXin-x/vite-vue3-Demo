@@ -5,7 +5,7 @@ defineProps<{ msg: string }>()
 </script>
 
 <template>
-  <h1>App1</h1>
+  <h1>App2</h1>
   <router-view />
 </template>
 

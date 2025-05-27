@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "lint:lint-staged": "lint-staged",
     "prepare": "husky install",
     "dev": "vite --mode development",
     "build": "vue-tsc -b && vite build",
@@ -35,5 +36,11 @@
     "typescript-eslint": "^8.32.1",
     "vite": "^6.2.0",
     "vue-tsc": "^2.2.4"
+  },
+  "lint-staged": {
+    "*.{vue,ts,js}": [
+      "eslint --cache --max-warnings 0 --fix",
+      "git add"
+    ]
   }
 }
